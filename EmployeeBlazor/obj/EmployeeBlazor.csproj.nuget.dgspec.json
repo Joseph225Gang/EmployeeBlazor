@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\EmployeeBlazor.csproj": {}
+  },
+  "projects": {
+    "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj",
+        "projectName": "EmployeeBlazor.ComponentsLibrary",
+        "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj",
+        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21452.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
+        "projectName": "EmployeeBlazor.Entity",
+        "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
+        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\EmployeeBlazor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\EmployeeBlazor.csproj",
+        "projectName": "EmployeeBlazor",
+        "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\EmployeeBlazor.csproj",
+        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj": {
+                "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj"
+              },
+              "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj": {
+                "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Havit.Blazor.Components.Web.Bootstrap": {
+              "target": "Package",
+              "version": "[1.4.7, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21452.15, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-rc.1.21452.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.0-rc.1.21451.13, 6.0.0-rc.1.21451.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

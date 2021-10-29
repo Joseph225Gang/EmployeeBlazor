@@ -1,0 +1,13 @@
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\bin\Debug\net6.0\EmployeeBlazor.Entity.deps.json
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\bin\Debug\net6.0\EmployeeBlazor.Entity.dll
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\bin\Debug\net6.0\ref\EmployeeBlazor.Entity.dll
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\bin\Debug\net6.0\EmployeeBlazor.Entity.pdb
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.GlobalUsings.g.cs
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.AssemblyInfo.cs
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.dll
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\ref\EmployeeBlazor.Entity.dll
+D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.Entity\obj\Debug\net6.0\EmployeeBlazor.Entity.pdb

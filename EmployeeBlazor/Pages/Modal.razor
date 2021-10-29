@@ -1,0 +1,64 @@
+﻿@page "/modal"
+
+<HxButton OnClick="HandleShowClick" Color="ThemeColor.Primary">Show modal</HxButton>
+
+<HxModal @ref="myModal" Title="Hello">
+	<BodyTemplate>
+		Hello
+	</BodyTemplate>
+	<FooterTemplate>
+		<HxButton Text="Close" OnClick="HandleHideClick" Color="ThemeColor.Primary" />
+	</FooterTemplate>
+</HxModal>
+<HxNavbar>
+	<HxNavbarBrand>Navbar</HxNavbarBrand>
+	<HxNavbarToggler />
+	<HxNavbarCollapse>
+		<HxNav CssClass="me-auto mb-2 mb-lg-0">
+			<HxNavLink Href="/components/HxNavbar">Home</HxNavLink>
+			<HxNavLink Href="#">Link</HxNavLink>
+			<HxDropdown>
+				<HxDropdownToggleButton Text="Dropdown" />
+				<HxDropdownMenu>
+					<HxDropdownItemNavLink Href="#">Action</HxDropdownItemNavLink>
+					<HxDropdownItemNavLink Href="#">Another action</HxDropdownItemNavLink>
+					<HxDropdownDivider />
+					<HxDropdownItemNavLink Href="#">Something else here</HxDropdownItemNavLink>
+				</HxDropdownMenu>
+			</HxDropdown>
+			<HxNavLink Enabled="false">Disabled</HxNavLink>
+		</HxNav>
+			<EditForm Model="@query">
+				<div class="d-flex">
+						<HxInputText CssClass="me-2" Placeholder="Search" @bind-Value="@query" />
+						<HxSubmit Color="ThemeColor.Success" Outline="true">Search</HxSubmit>
+				</div>
+			</EditForm>
+	</HxNavbarCollapse>
+</HxNavbar>
+<HxButton Color="ThemeColor.Primary" Text="Primary" />
+<HxButton Color="ThemeColor.Secondary" Text="Secondary" />
+<HxButton Color="ThemeColor.Success" Text="Success" />
+<HxButton Color="ThemeColor.Danger" Text="Danger" />
+<HxButton Color="ThemeColor.Warning" Text="Warning" />
+<HxButton Color="ThemeColor.Info" Text="Info" />
+<HxButton Color="ThemeColor.Light" Text="Light" />
+<HxButton Color="ThemeColor.Dark" Text="Dark" />
+<HxButton Color="ThemeColor.Link" Text="Link" />
+
+@code
+{
+	private string query = String.Empty;
+	private HxModal myModal;
+
+	private async Task HandleShowClick()
+	{
+		await myModal.ShowAsync();
+	}
+
+	private async Task HandleHideClick()
+	{
+		await myModal.HideAsync();
+	}
+
+}

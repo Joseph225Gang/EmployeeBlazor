@@ -1,0 +1,86 @@
+﻿@page "/employeeOverview"
+
+<h3>EmployeeOverview</h3>
+
+@if(Employees == null)
+{
+    <h1>Loading...</h1>
+}
+else{
+    @if (Status == Status.Overview)
+    {
+        <button @onclick="QuickAddEmployee" class="btn btn-dark table-btn quick-add-btn">新增</button>
+        <AddEmployeeDialog @ref="AddEmployeeDialog" CloseEventCallback="@AddEmployeeDialog_OnDialogClose"></AddEmployeeDialog>
+        <table>
+            <thead>
+                <th>Employee ID</th>
+                <th>First Name</th>
+                <th>Second Name</th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody>
+                @foreach (var employee in Employees)
+                {
+                    <tr style="background-color: @SetBackgroundColor(employee)">
+                        <td>@employee.EmployeeId</td>
+                        <td>@employee.FirstName</td>
+                        <td>@employee.LastName</td>
+                        <td><button @onclick="() => UpdateEmployeeStatus(employee.EmployeeId)">編輯</button></td>
+                        <td><button @onclick="() => Delete(employee.EmployeeId)">刪除</button></td>
+                        <td><button @onclick="() => GoToEmployeeDetail(employee)">員工資料</button></td>
+                        <td>
+                        <input type="checkbox" checked="@employee.IsSelected"
+                                @onchange="e => CheckBoxChanged(e, employee)" />
+                        </td>
+                        @if (employee.IsSelected)
+                    {
+                        <td>@employee.StartDate</td>
+                        <td>@employee.EndDate</td>
+                        <td>@employee.Description</td>
+                    }
+                    else
+                    {
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    }
+                    </tr>
+                }
+            </tbody>
+        </table>
+}
+    else if(Status == Status.Update)
+    {
+        <h1>@UpdateEmployee.EmployeeId</h1>
+        <EditForm Model="@UpdateEmployee" OnValidSubmit="@HandleValidSubmit"
+                  OnInvalidSubmit="@HandleInvalidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary></ValidationSummary>
+            <div class="form-group row">
+                <label for="lastName" class="col-sm-3">Last name: </label>
+                <InputText id="lastName" class="form-control col-sm-8" @bind-Value="@UpdateEmployee.LastName" placeholder="Enter last name"></InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => UpdateEmployee.LastName)" />
+            </div>
+            <div class="form-group row">
+                <label for="lastName" class="col-sm-3">First name: </label>
+                <InputText id="lastName" class="form-control col-sm-8" @bind-Value="@UpdateEmployee.FirstName" placeholder="Enter first name"></InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => UpdateEmployee.FirstName)" />
+            </div>
+            <div class="form-group row">
+                <label for="lastName" class="col-sm-3">Job name: </label>
+                <InputText id="lastName" class="form-control col-sm-8" @bind-Value="@UpdateEmployee.JobName" placeholder="Enter job name"></InputText>
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => UpdateEmployee.JobName)" />
+            </div>
+             <button type="submit" class="btn btn-primary edit-btn">Save employee</button>
+        </EditForm>
+}
+    else if(Status == Status.Detail)
+    {
+        <button onclick=@GoToLastPage>上一頁</button>
+        <h1>@UpdateEmployee.EmployeeId</h1>
+        <h1>@UpdateEmployee.FirstName</h1>
+        <h1>@UpdateEmployee.LastName</h1>
+        <h1>@UpdateEmployee.JobName</h1>
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "81a3639d-cfa0-415e-8e19-db04228d9d48": {
+      "ProjectGuid": "81a3639d-cfa0-415e-8e19-db04228d9d48",
+      "DisplayName": "EmployeeBlazor",
+      "ColorIndex": 0
+    },
+    "dcdd06fb-c018-44fc-8d97-f135ced3de0b": {
+      "ProjectGuid": "dcdd06fb-c018-44fc-8d97-f135ced3de0b",
+      "DisplayName": "EmployeeBlazor.Entity",
+      "ColorIndex": 1
+    },
+    "38146824-e1fc-4ba1-853f-fc7dacf0782d": {
+      "ProjectGuid": "38146824-e1fc-4ba1-853f-fc7dacf0782d",
+      "DisplayName": "EmployeeBlazor.Api",
+      "ColorIndex": 2
+    },
+    "d91ce9a9-12c1-49bd-aaac-d34f0e679fb9": {
+      "ProjectGuid": "d91ce9a9-12c1-49bd-aaac-d34f0e679fb9",
+      "DisplayName": "EmployeeBlazor.API1",
+      "ColorIndex": 3
+    },
+    "4f311a28-fe5a-45c2-bff6-f94f6fbda11a": {
+      "ProjectGuid": "4f311a28-fe5a-45c2-bff6-f94f6fbda11a",
+      "DisplayName": "EmployeeBlazor.Api2",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    },
+    "906c7d5b-bb53-4018-afc2-9088e40ebe9e": {
+      "ProjectGuid": "906c7d5b-bb53-4018-afc2-9088e40ebe9e",
+      "DisplayName": "EmployeeBlazor.ComponentsLibrary",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
