@@ -13,6 +13,7 @@ build_property.RootNamespace = EmployeeBlazor
 build_property.RootNamespace = EmployeeBlazor
 build_property.ProjectDir = D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor\
 build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor
 build_property._RazorSourceGeneratorDebug = 

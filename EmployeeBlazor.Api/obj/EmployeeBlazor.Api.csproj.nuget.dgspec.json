@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Api\\EmployeeBlazor.Api.csproj",
         "projectName": "EmployeeBlazor.Api",
         "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Api\\EmployeeBlazor.Api.csproj",
-        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,6 +50,16 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
             }
           },
           "imports": [
@@ -70,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -80,14 +90,14 @@
         "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
         "projectName": "EmployeeBlazor.Entity",
         "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
-        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -127,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }

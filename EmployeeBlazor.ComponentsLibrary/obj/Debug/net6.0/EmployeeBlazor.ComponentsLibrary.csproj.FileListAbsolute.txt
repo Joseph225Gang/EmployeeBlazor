@@ -4,7 +4,6 @@ D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\ref\EmployeeBlazor.ComponentsLibrary.dll
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.pdb
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.GlobalUsings.g.cs
-D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.csproj.AssemblyReference.cache
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.GeneratedMSBuildEditorConfig.editorconfig
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.AssemblyInfoInputs.cache
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.AssemblyInfo.cs

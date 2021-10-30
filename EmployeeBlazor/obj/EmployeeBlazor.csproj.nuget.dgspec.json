@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj",
         "projectName": "EmployeeBlazor.ComponentsLibrary",
         "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\EmployeeBlazor.ComponentsLibrary.csproj",
-        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -64,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -74,14 +73,14 @@
         "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
         "projectName": "EmployeeBlazor.Entity",
         "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
-        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +88,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -122,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -132,14 +130,14 @@
         "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\EmployeeBlazor.csproj",
         "projectName": "EmployeeBlazor",
         "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\EmployeeBlazor.csproj",
-        "packagesPath": "C:\\Users\\joseph.lai\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\joseph.lai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,8 +145,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -200,7 +197,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.0-rc.1.21451.13, 6.0.0-rc.1.21451.13]"
+              "version": "[6.0.0-rc.2.21480.5, 6.0.0-rc.2.21480.5]"
             }
           ],
           "frameworkReferences": {
@@ -208,7 +205,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

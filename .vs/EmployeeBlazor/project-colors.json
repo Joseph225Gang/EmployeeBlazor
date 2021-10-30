@@ -23,7 +23,7 @@
     },
     "4f311a28-fe5a-45c2-bff6-f94f6fbda11a": {
       "ProjectGuid": "4f311a28-fe5a-45c2-bff6-f94f6fbda11a",
-      "DisplayName": "EmployeeBlazor.Api2",
+      "DisplayName": "EmployeeBlazor.Api",
       "ColorIndex": 4
     },
     "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
@@ -35,7 +35,12 @@
       "ProjectGuid": "906c7d5b-bb53-4018-afc2-9088e40ebe9e",
       "DisplayName": "EmployeeBlazor.ComponentsLibrary",
       "ColorIndex": 5
+    },
+    "daa3461a-d9d4-4eee-bfb9-36b2bee80634": {
+      "ProjectGuid": "daa3461a-d9d4-4eee-bfb9-36b2bee80634",
+      "DisplayName": "EmployeeBlazor.Api",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
