@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj": {}
+    "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj": {
+    "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
+        "projectUniqueName": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
         "projectName": "EmployeeBlazor.Entity",
-        "projectPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\obj\\",
+        "projectPath": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
+        "packagesPath": "C:\\Users\\Kwei-GangLai\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kwei-GangLai\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

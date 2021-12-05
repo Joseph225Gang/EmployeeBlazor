@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TUeG53bs4gy2LN69GINbOqFIW03IfvJHfuNoWhizB4Q=",
+  "Hash": "Onk/M12BGFKiSGI0DKHR7RUBJkFOlekqJ4h9IVXLPeo=",
   "Source": "EmployeeBlazor.ComponentsLibrary",
   "BasePath": "_content/EmployeeBlazor.ComponentsLibrary",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EmployeeBlazor.ComponentsLibrary\\wwwroot",
       "Source": "EmployeeBlazor.ComponentsLibrary",
-      "ContentRoot": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\",
+      "ContentRoot": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\",
       "BasePath": "_content/EmployeeBlazor.ComponentsLibrary",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\background.png",
+      "Identity": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\background.png",
       "SourceId": "EmployeeBlazor.ComponentsLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\",
+      "ContentRoot": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\",
       "BasePath": "_content/EmployeeBlazor.ComponentsLibrary",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\exampleJsInterop.js",
+      "Identity": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\exampleJsInterop.js",
       "SourceId": "EmployeeBlazor.ComponentsLibrary",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\",
+      "ContentRoot": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.ComponentsLibrary\\wwwroot\\",
       "BasePath": "_content/EmployeeBlazor.ComponentsLibrary",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

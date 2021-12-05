@@ -14,3 +14,19 @@ D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.dll
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\ref\EmployeeBlazor.ComponentsLibrary.dll
 D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.pdb
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.staticwebassets.runtime.json
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.deps.json
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.dll
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\ref\EmployeeBlazor.ComponentsLibrary.dll
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\bin\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.pdb
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.csproj.AssemblyReference.cache
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.AssemblyInfoInputs.cache
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.AssemblyInfo.cs
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.csproj.CoreCompileInputs.cache
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\staticwebassets.build.json
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\staticwebassets.development.json
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\scopedcss\bundle\EmployeeBlazor.ComponentsLibrary.styles.css
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.dll
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\ref\EmployeeBlazor.ComponentsLibrary.dll
+D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\obj\Debug\net6.0\EmployeeBlazor.ComponentsLibrary.pdb

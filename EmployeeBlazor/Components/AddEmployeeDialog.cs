@@ -1,5 +1,4 @@
 ﻿using EmployeeBlazor.Entity;
-using EmployeeBlazor.Service;
 using Microsoft.AspNetCore.Components;
 
 namespace EmployeeBlazor.Components

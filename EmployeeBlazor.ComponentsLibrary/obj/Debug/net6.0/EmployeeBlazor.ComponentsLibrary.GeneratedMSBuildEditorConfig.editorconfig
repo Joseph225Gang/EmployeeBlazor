@@ -8,17 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = EmployeeBlazor.ComponentsLibrary
 build_property.RootNamespace = EmployeeBlazor.ComponentsLibrary
-build_property.ProjectDir = D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\
+build_property.ProjectDir = D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Visual Studio 2022\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary
+build_property.MSBuildProjectDirectory = D:\Github\Blazor\EmployeeBlazor\EmployeeBlazor.ComponentsLibrary
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Visual Studio 2022/EmployeeBlazor/EmployeeBlazor.ComponentsLibrary/ProfilePicture.razor]
+[D:/Github/Blazor/EmployeeBlazor/EmployeeBlazor.ComponentsLibrary/ProfilePicture.razor]
 build_metadata.AdditionalFiles.TargetPath = UHJvZmlsZVBpY3R1cmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Visual Studio 2022/EmployeeBlazor/EmployeeBlazor.ComponentsLibrary/_Imports.razor]
+[D:/Github/Blazor/EmployeeBlazor/EmployeeBlazor.ComponentsLibrary/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

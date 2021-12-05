@@ -2,12 +2,12 @@
 using System.Text;
 using System.Text.Json;
 
-namespace EmployeeBlazor.Service
+namespace EmployeeBlazor
 {
     public class EmployeeService : IEmployeeService
     {
         private readonly HttpClient _httpClient;
-
+        private readonly string apiPort = "localhost:7034";
         public EmployeeService()
         {
             _httpClient = new HttpClient();
@@ -18,24 +18,24 @@ namespace EmployeeBlazor.Service
             var employeeJson =
                new StringContent(JsonSerializer.Serialize(employee), Encoding.UTF8, "application/json");
 
-            await _httpClient.PostAsync("https://localhost:7034/api/employee", employeeJson);
+            await _httpClient.PostAsync($"https://{apiPort}/api/employee", employeeJson);
         }
 
         public async Task DeleteEmployee(int employeeId)
         {
-            await _httpClient.DeleteAsync($"https://localhost:7034/api/employee/{employeeId}");
+            await _httpClient.DeleteAsync($"https://{apiPort}/api/employee/{employeeId}");
         }
 
         public async Task<IEnumerable<Employee>> GetAllEmployees()
         {
             return await JsonSerializer.DeserializeAsync<IEnumerable<Employee>>
-                   (await _httpClient.GetStreamAsync($"https://localhost:7034/api/employee"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+                   (await _httpClient.GetStreamAsync($"https://{apiPort}/api/employee"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
         public async Task<Employee> GetEmployeeDetails(int employeeId)
         {
             return await JsonSerializer.DeserializeAsync<Employee>
-                (await _httpClient.GetStreamAsync($"https://localhost:7034/api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+                (await _httpClient.GetStreamAsync($"https://{apiPort}/api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
         public async Task UpdateEmployee(Employee employee)
@@ -43,7 +43,7 @@ namespace EmployeeBlazor.Service
             var employeeJson =
                new StringContent(JsonSerializer.Serialize(employee), Encoding.UTF8, "application/json");
 
-            await _httpClient.PutAsync("https://localhost:7034/api/employee", employeeJson);
+            await _httpClient.PutAsync($"https://{apiPort}/api/employee", employeeJson);
         }
 
     }

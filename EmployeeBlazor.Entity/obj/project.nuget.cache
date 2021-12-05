@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQBs1f+ITRNtWIKo1som5DWESxis0jh6AgKOFRopWadkzZCYdFtWKMve1N0f51XiKnZekEyHyIUd/Eckx5yYyg==",
+  "dgSpecHash": "abbaBF4goqYrfsym4OH1J46+8dMYqKTpHktuByohJHWJhUvzo1hsE7gRUrv1Vcu7eW/xu6i3VkETqrDb8t1etQ==",
   "success": true,
-  "projectFilePath": "D:\\Visual Studio 2022\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
+  "projectFilePath": "D:\\Github\\Blazor\\EmployeeBlazor\\EmployeeBlazor.Entity\\EmployeeBlazor.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

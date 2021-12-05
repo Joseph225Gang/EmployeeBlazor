@@ -1,20 +1,22 @@
 ﻿using EmployeeBlazor.Components;
 using EmployeeBlazor.Entity;
-using EmployeeBlazor.Service;
 using Microsoft.AspNetCore.Components;
 
 namespace EmployeeBlazor.Pages
 {
-    public partial class EmployeeOverview
+    public partial class EmployeeOverview : ComponentBase
     {
-        protected AddEmployeeDialog AddEmployeeDialog { get; set; }
-        public IEnumerable<Employee> Employees { get; set; }
 
-        public IEmployeeService EmployeeDataService { get; set; } = new EmployeeService();
+        [Inject]
+        public IEmployeeService EmployeeService { get; set; }
+
+        protected AddEmployeeDialog AddEmployeeDialog { get; set; }
+        public List<Employee> Employees { get; set; }
+
 
         protected async override Task OnInitializedAsync()
         {
-            Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
+            Employees = (await EmployeeService.GetAllEmployees()).ToList();
         }
 
         public string SetBackgroundColor(Employee employee)
@@ -25,7 +27,7 @@ namespace EmployeeBlazor.Pages
         public async void CheckBoxChanged(ChangeEventArgs e, Employee employee)
         {
             employee.IsSelected = !employee.IsSelected;
-            await EmployeeDataService.UpdateEmployee(employee);
+            await EmployeeService.UpdateEmployee(employee);
             StateHasChanged();
         }
         protected void QuickAddEmployee()
@@ -36,7 +38,7 @@ namespace EmployeeBlazor.Pages
         public async void UpdateEmployeeStatus(int id)
         {
             this.Status = Status.Update;
-            UpdateEmployee = await EmployeeDataService.GetEmployeeDetails(id);
+            UpdateEmployee = await EmployeeService.GetEmployeeDetails(id);
             StateHasChanged();
         }
 
@@ -44,14 +46,14 @@ namespace EmployeeBlazor.Pages
         {
             if (Status == Status.Add) //new
             {
-                await EmployeeDataService.AddEmployee(UpdateEmployee);
+                await EmployeeService.AddEmployee(UpdateEmployee);
             }
             else
             {
-                await EmployeeDataService.UpdateEmployee(UpdateEmployee);
+                await EmployeeService.UpdateEmployee(UpdateEmployee);
             }
             Status = Status.Overview;
-            Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
+            Employees = (await EmployeeService.GetAllEmployees()).ToList();
             StateHasChanged();
         }
 
@@ -63,8 +65,8 @@ namespace EmployeeBlazor.Pages
 
         protected async void Delete(int employeeId)
         {
-            await EmployeeDataService.DeleteEmployee(employeeId);
-            Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
+            await EmployeeService.DeleteEmployee(employeeId);
+            Employees = (await EmployeeService.GetAllEmployees()).ToList();
             StateHasChanged();
         }
 
@@ -80,7 +82,7 @@ namespace EmployeeBlazor.Pages
 
         public async void AddEmployeeDialog_OnDialogClose()
         {
-            Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
+            Employees = (await EmployeeService.GetAllEmployees()).ToList();
             StateHasChanged();
         }
 

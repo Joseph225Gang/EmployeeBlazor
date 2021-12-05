@@ -1,6 +1,6 @@
 ﻿using EmployeeBlazor.Entity;
 
-namespace EmployeeBlazor.Service
+namespace EmployeeBlazor
 {
     public interface IEmployeeService
     {
